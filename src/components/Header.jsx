@@ -19,7 +19,7 @@ function Header() {
             <Link  className='ll' to="/thala">Thala</Link>
           </nav>
 
-        || Prahlad Gaur || Time is {date.toLocaleDateString()} { date.toLocaleTimeString()} || 
+         Prahlad Gaur || {date.toLocaleDateString()} || { date.toLocaleTimeString()} 
         </div>
     </header>
   )
