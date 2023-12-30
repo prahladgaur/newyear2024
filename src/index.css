@@ -137,9 +137,13 @@ nav {
   color: white;
   margin: 2px;
   text-decoration: none;
-  background-color: rgba(49, 49, 49, 0.651);
+ 
   border-radius: 4px;
   padding: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.link .ll:hover{
+  color:green;
 }
 /*Thala CSS */
 .thalaset {
