@@ -130,6 +130,15 @@ input {
   font-weight: bold;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.991), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.head .myname{
+  color: white;
+  text-decoration: none;
+}
+
+.head .myname:hover{
+  color: green;
+}
 nav {
   margin-left: 5px;
 }
