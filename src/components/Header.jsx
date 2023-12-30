@@ -19,7 +19,7 @@ function Header() {
             <Link  className='ll' to="/thala">Thala</Link>
           </nav>
 
-        || Prahlad Gaur || {date.toLocaleDateString()} { date.toLocaleTimeString()} 
+        || <a className='myname' rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/prahlad-gaur-071107abc/'>Prahlad Gaur</a> || {date.toLocaleDateString()} { date.toLocaleTimeString()} 
         </div>
     </header>
   )
