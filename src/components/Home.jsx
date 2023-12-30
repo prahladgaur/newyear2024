@@ -1,10 +1,7 @@
 // import React from 'react'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
-//import videoBg from "../assets/newyear.mp4";
-
-//import Player from "./Player"
+import audiobg from "../assets/hny.mp3"
 
 function Home() {
   const [inputValue, setInputValue] = useState("Thala");
@@ -44,7 +41,9 @@ function Home() {
             )}
           </form>
         </div>
+       
       </div>
+      <audio src={audiobg} controls autoPlay loop />
     </>
   );
 }
