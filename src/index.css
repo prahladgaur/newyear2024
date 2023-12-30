@@ -98,11 +98,12 @@ button {
   box-shadow: inset black;
   font-size: 15px;
   margin-bottom: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 input {
   font-size: 15px;
   width: 110px;
-  background-color: rgba(213, 210, 206, 0.667);
+  background-color: rgba(255, 255, 255, 0.687);
   border: none;
   border-radius: 6px;
   padding: 4px;
@@ -140,33 +141,60 @@ nav {
   border-radius: 4px;
   padding: 3px;
 }
-
+/*Thala CSS */
 .thalaset {
   display: flex;
-  background: black;
+  background: rgb(255, 255, 255);
   border-radius: 12px;
+ 
   margin: 2px;
-}
-.thala {
-  width: 50%;
-  height: 100vh;
-  background-color: aquamarine;
-  margin: 15px;
-  border-radius: 12px;
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  color: white;
 }
-.thalaa {
-  width: 50%;
-  height: 100vh;
-  background-color: rgb(170, 42, 209);
-  margin: 15px;
-  border-radius: 12px;
-  text-align: center;
+.thalaset form {
+  background-color: rgb(252, 252, 251);
+  padding: 80px;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.thalaset button:hover{
+  border: 1px solid green;
+  border-radius: 12px;
+  color: green;
+  font-weight: bolder;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.991), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thalaset p{
+  color: black;
+  font-family: fantasy;
+  font-size: 30px;
+}
+.thalaset p:hover{
+  color: green;
+}
+.thalaset .enter{
+  font-family: 'Courier New', Courier, monospace;
+}
+.thalaset .log:hover{
+  font-weight: bolder;
+  cursor: pointer;
+  color: green;
+}
+.thalaset a:hover{
+  font-weight: bolder;
+  cursor: pointer;font-size: 20px;
+  color: green;
+}
+
 
 /* About Page CSS        */
 .about-me{
@@ -228,8 +256,10 @@ nav {
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.991), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  
+}
+.img1:hover{
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.991), 0px 6px 20px 20px rgba(0, 0, 0, 0.19);
+  filter: brightness(50%);
 }
 .right .img2{
   width:230px;
