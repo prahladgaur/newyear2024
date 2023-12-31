@@ -33,6 +33,7 @@ function Home() {
             <br />
 
             <button className="submit-btn" type="submit">Submit </button>
+            <p>Try to open it in Laptop</p>
 
             {submittedValue && (
               <div>
