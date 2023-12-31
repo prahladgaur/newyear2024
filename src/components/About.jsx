@@ -11,7 +11,7 @@ function About() {
 
         <div className="left-right">
           <div className="left">
-            <img className="img1" src={img} ></img>
+          <a className='myname' rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/prahlad-gaur-071107abc/'> <img className="img1" src={img} ></img></a>
           </div>
           <div className="right" >
             <p>
