@@ -1,6 +1,7 @@
 /* eslint-disable no-const-assign */
 /* eslint-disable react/no-unescaped-entities */
 // import React from 'react'
+import vn from "../assets/vn.mp4"
 import { useState } from "react";
 function Thala() {
   const [inputValue, setInputValue] = useState("");
@@ -52,7 +53,7 @@ function Thala() {
   return (
     <>
       <div className="thalaset">
-        
+        <div className="left-thala">
         <form onSubmit={handleSub}>
           <p>Thala for a reason Game</p>
           <p className="enter">Enter Something</p>
@@ -72,6 +73,10 @@ function Thala() {
           </a>
           <p>{logic}</p>
         </form>
+        </div>
+        <div className="right-thala">
+        <video src={vn} autoPlay loop muted />
+        </div>
       </div>
     </>
   );
