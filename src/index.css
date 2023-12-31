@@ -16,7 +16,7 @@
   
 }
 .player video {
-  width: 100%;
+  width: 99%;
   height: 100vh;
   object-fit: cover;
   border-radius: 12px;
@@ -159,18 +159,37 @@ nav {
   display: flex;
   background: rgb(255, 255, 255);
   border-radius: 12px;
- 
+
   margin: 2px;
   text-align: center;
-  display: flex;
+ 
+  
   flex-direction: column;
   margin-top: 20px;
   align-items: center;
   color: white;
 }
+
+.thalaset .left-thala{
+  width: 100%;
+  
+}
+.thalaset .right-thala{
+ 
+ margin-top: 15px;
+  text-align: center;
+  
+}
+.thalaset .right-thala video{
+  width: 50%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .thalaset form {
-  background-color: rgb(252, 252, 251);
-  padding: 80px;
+
+  padding-bottom: 12px;
   display: flex;
   flex-direction: column;
   text-align: center;
