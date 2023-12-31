@@ -75,7 +75,7 @@ function Thala() {
         </form>
         </div>
         <div className="right-thala">
-        <video src={vn} autoPlay loop muted />
+        <video src={vn} autoPlay loop  />
         </div>
       </div>
     </>
